@@ -18,6 +18,16 @@ const routes = [
         path:'book',
         name:'Book',
         component:()=>import("@/views/Book"),
+      },
+      {
+        path:'person',
+        name:'Person',
+        component:()=>import("@/views/Person"),
+      },
+      {
+        path:'news',
+        name:'News',
+        component:()=>import("@/views/News"),
       }
     ]
   },
