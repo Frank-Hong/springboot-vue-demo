@@ -22,6 +22,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/files")
 public class FileController {
+    // @Value($())：从配置文件获取信息
     @Value("${server.port}")
     private String port;
 
