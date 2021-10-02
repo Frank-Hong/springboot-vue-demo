@@ -52,7 +52,7 @@ export default {
             })
             return
           }
-          request.post("/api/user/register",this.form).then(res=>{
+          request.post("/user/register",this.form).then(res=>{
             if(res.code==='0'){
               this.$message({
                 type:"success",
